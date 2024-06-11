@@ -49,7 +49,7 @@ document.getElementById("submit").addEventListener("click", function () {
 
     let subTotalResult = parseFloat(subtotal.toFixed(2));
 
-    let tax = (subtotal*3.21)/100;
+    let tax = (subtotal*1)/100;
     let taxresult = parseFloat(tax.toFixed(2));
 
 
@@ -85,8 +85,8 @@ document.getElementById("submit").addEventListener("click", function () {
     // document.getElementById("changeUpdate").innerText = ChangePrizeRound;
     // document.getElementById("randomOrder").innerText = randomOrder;
     
-   var randomOrder = Math.floor(Math.random() * 9999999999999);
-    document.getElementById("coupon").innerText = randomOrder;
+//    var randomOrder = Math.floor(Math.random() * 9999999999999);
+//     document.getElementById("coupon").innerText = randomOrder;
     
 
 });
