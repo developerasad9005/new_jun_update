@@ -231,6 +231,9 @@ document.getElementById('shop').addEventListener('click', function() {
    else if(shop_name === "public"){
     document.getElementById('bg_image').src = 'image/public.png';
    }
+   else if(shop_name === "cvs"){
+    document.getElementById('bg_image').src = 'image/cvs.png';
+   }
 })
 
 // document.getElementById('nameChanger').addEventListener('click', function () {
